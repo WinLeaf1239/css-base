@@ -1,0 +1,67 @@
+p {
+    color:red;
+    border: 4px dashed black;
+    border-color: red;
+    border-left: 8px dotted violet;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 100;
+    
+}
+#para1 {
+    color:green;
+}
+.colortext {
+color:aqua;
+}
+
+body {
+    background-color: yellow;
+    background-image: url(assets/background.avif);
+    background-repeat: repeat-y;
+    background-repeat: no-repeat; 
+    background-position: right top;
+    background-attachment: fixed;
+}
+h1 {
+    background-color: brown;
+    margin:30px; 
+    margin-top: 30px;
+    text-align: center;
+    padding: 40px 10px;
+    height: 100px;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* шрифт текста */
+    font-style: italic; /* Стиль текста*/
+    font-size: 50px;
+    
+}
+
+.text {
+    width: 200px;
+    border: 2px solid green;
+    padding: 25px;
+    margin-left: 25px;
+    outline: 5px solid black; /*зрительно аутлайн идет после бордера(внутри) */
+}
+
+a {
+    text-decoration: none; /* Убирает подчеркивание */
+    color:red;
+    
+}
+
+a:hover {
+    color:black;
+    text-decoration: underline;
+}
+
+a:visited {
+    color:green;
+}
+
+.intro {
+    margin-left: 20px;
+}
