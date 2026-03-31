@@ -36,7 +36,19 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif; /* шрифт текста */
     font-style: italic; /* Стиль текста*/
     font-size: 50px;
-    
+    /*visibility:hidden; Место на странице остается  */
+    /*display: none; Теперь место вообще нету для этого текста */
+    position: absolute;
+    top: 50px;
+    z-index: -1; /* На задний план*/
+}
+
+.intro{
+    margin-left: 20px;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+
 }
 
 .text {
@@ -65,3 +77,68 @@ a:visited {
 .intro {
     margin-left: 20px;
 }
+
+ul{
+    list-style: square;
+    /* list-style: url(assets/klematis.jpg); */
+    list-style: none;
+}
+
+ol {
+    list-style:upper-roman;
+}
+
+table,th,td{
+    border: 2px solid green;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: right;
+}
+
+th{
+    padding-left: 15px;
+    background-color: aquamarine;
+}
+
+li{
+    display: inline;
+}
+
+strong{
+    display: block;
+}
+
+div p{
+    color:burlywood;
+}
+
+ div +p{ /*23.	Измените цвет первого элемента <p>, который находится непосредственно после элемента <div>, на другой. */
+    color:chartreuse;
+}
+
+input:focus{
+    background-color:red;
+}
+
+#para1 {
+    color:green;
+}
+
+p::first-line{
+    background-color: aquamarine;
+}
+
+p::first-letter{
+    background-color:black ;
+}
+
+img{
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}
+
